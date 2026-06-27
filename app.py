@@ -4,7 +4,7 @@ import plotly.express as px
 import os
 
 # 1. Page Configuration & Custom CSS
-st.set_page_config(page_title="My Architecture of Distraction", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Tracker Application", layout="wide", initial_sidebar_state="collapsed")
 
 st.markdown("""
     <style>
@@ -20,7 +20,7 @@ st.markdown("""
 
 # 2. Header & Author's Notes
 st.title("Here's how I spend my time")
-st.markdown("#### Personal Cognitive Network Analysis")
+st.markdown("#### Cognitive Network Analysis")
 
 st.markdown("""
 <div class="notes-section">
@@ -52,8 +52,8 @@ color_map = {
 }
 
 # 4. Main Screen Interactive Filters
-st.markdown("### 🎛️ Interactive Data Matrix")
-st.write("Use the filters below to shape the data and explore how I spent my time.")
+st.markdown("### Data Matrix")
+st.write("Use the filters below to shape the data and explore")
 
 filter_col1, filter_col2 = st.columns(2)
 with filter_col1:
